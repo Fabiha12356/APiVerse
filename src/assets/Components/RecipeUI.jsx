@@ -6,14 +6,13 @@ import "./RecipeUI.css"
 export const RecipeUI = ({recipes}) => {
   return (
    <>
-    {
-      recipes.map((item) =>{
-      return  <div className="recipes-container" key={item.id}>
+   <div className="recipes-container">
 
       <div className="recipes-grid">
-
-        {/* Recipe Card */}
-        <div className="recipe-card">
+       {
+        recipes.map((item) =>{
+          {/* Recipe Card */}
+  return <div className="recipe-card" key={item.id}>
 
           <div className="recipe-image">
             <img
@@ -36,7 +35,7 @@ export const RecipeUI = ({recipes}) => {
             </div>
 
             <p className="recipe-description">
-              A delicious creamy pasta made with garlic, cheese and fresh cream.
+           Discover delicious recipes, explore new flavors, and find inspiration for your next meal.
             </p>
 
             <button className="recipe-btn">
@@ -45,12 +44,12 @@ export const RecipeUI = ({recipes}) => {
 
           </div>
         </div>
+        })
+       }
 
 
       </div>
     </div>
-      })
-    }
    </>
   )
 }

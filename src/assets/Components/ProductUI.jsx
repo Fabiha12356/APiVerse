@@ -7,15 +7,13 @@ export const ProductUI = ({product}) => {
   return (
 
  <>
- {
-    product.map((item) =>{
-        
-  return   <div className="products-container" key={item.id}>
+ <div className="products-container">
 
       <div className="products-grid">
 
-        {/* Product Card 1 */}
-        <div className="product-card">
+    {
+        product.map((item) =>{
+return  <div className="product-card" key={item.id}>
 
           <div className="product-image">
             <img
@@ -41,13 +39,14 @@ export const ProductUI = ({product}) => {
 
         </div>
 
+        })
+    }
+
 
      
 
       </div>
     </div>
-    })
- }
  </>
   )
 }
