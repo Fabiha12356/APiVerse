@@ -6,8 +6,11 @@ import ProductUI from './ProductUI.jsx'
 export const Products = () => {
   return (
 <>
-    <API  apiLink={'https://dummyjson.com/products'} apiName={'products'}/>
-<ProductUI />
+    <API  apiLink={'https://dummyjson.com/products'} apiName={'products'}>
+
+{(productdata) => <ProductUI  product={productdata} />}
+
+</API>
 
 </>  )
 }
