@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Children } from 'react'
 import { useState,useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-export const API = ({apiLink,apiName}) => {
+
+import "./RecipeUI.jsx"
+import RecipeUI from './RecipeUI.jsx';
+
+export const API = ({apiLink,apiName,children}) => {
 
     let[greet,setGreet] =useState([])
 
@@ -26,12 +30,7 @@ export const API = ({apiLink,apiName}) => {
 
   return (
 <>
-{
-    greet.map((apiName) =>{
-console.log(apiName);
-console.log(apiName.id);
-    })
-}
+   {children(greet)}
 </>
   )
 }
