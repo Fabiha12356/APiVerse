@@ -7,7 +7,7 @@ import { Route,Router } from 'react-router-dom'
 import Navbaar from './assets/Components/Navbaar'
 import Recipes from './assets/Components/Recipes.jsx'
 import Products from './assets/Components/Products.jsx'
-import Carts from './assets/Components/Recipes.jsx'
+import Carts from './assets/Components/Carts.jsx'
 import Hero from './assets/Components/Hero.jsx'
 
 
