@@ -1,16 +1,58 @@
-# React + Vite
+# 🌌 APiVerse – Explore the World of APIs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+APiVerse is a React-based web application that brings different types of API data together in one place. It fetches and displays products, recipes, and shopping cart information through API integration.
 
-Currently, two official plugins are available:
+This project helped me explore how React works with real-world API data and reusable components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🛍️ **Products Section** – Fetch and display products dynamically.
+- 🍕 **Recipes Section** – Explore recipes with images and details.
+- 🛒 **Carts Section** – Display cart information and product details.
+- 🔗 **API Integration** – Fetch data from multiple API endpoints.
+- ♻️ **Reusable Components** – Build a structured and reusable UI.
+- 📦 **Props** – Pass data between React components.
+- ⚡ **Dynamic Rendering** – Display API data dynamically.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Bootstrap
+- React Router DOM
+- DummyJSON API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 React Concepts Practiced
+
+- Functional Components
+- Props and Data Passing
+- useState Hook
+- useEffect Hook
+- API Fetching
+- Dynamic Data Rendering
+- Reusable Components
+- Component-Based Architecture
+- React Router DOM
+
+## 🌐 API Source
+
+Data fetched from **DummyJSON API**.
+
+- Products API
+- Recipes API
+- Carts API
+
+
+```
+
+## 👩‍💻 Developer
+
+**Fabiha M Sohail**
+
+Aspiring MERN Stack Developer
+
+---
+
+⭐ If you find this project interesting, don't forget to star the repository!
